@@ -1,6 +1,6 @@
-# [tip.md](https://tip.md) x402 + CDP MCP Server
+# x402 + CDP MCP Server
 
-> **🏆 Hackathon Entry**: Transform any AI agent into a payment-enabled tipping agent using x402 payment collection with CDP automatic disbursement.
+>  Transform any AI agent into a payment-enabled tipping agent using x402 payment collection with CDP automatic disbursement.
 
 ## 🌟 About tip.md
 
@@ -19,8 +19,8 @@ This MCP server extends tip.md's functionality by enabling **any AI agent** to f
 **For Judges & Evaluators**: Experience the x402 + CDP tipping flow instantly:
 
 ```bash
-git clone https://github.com/xR0am/tip-md-x402-mcp-server.git
-cd tip-md-x402-mcp-server
+git clone https://github.com/OnChainMee/payment-enabled-agent-x402.git
+cd payment-enabled-agent-x402
 npm install
 NODE_ENV=demo npm start
 ```
@@ -84,7 +84,7 @@ To see the **actual demo payment functionality**, you need to connect the MCP se
     "tip-md-demo": {
       "command": "node",
       "args": ["dist/mcp-server/src/index.js"],
-      "cwd": "/path/to/tip-md-x402-mcp-server",
+      "cwd": "/path/to/payment-enabled-agent-x402",
       "env": {
         "NODE_ENV": "demo"
       }
@@ -187,13 +187,6 @@ npm start
 - **Structured Responses**: Rich JSON responses for seamless integration
 - **Error Handling**: Graceful fallbacks and detailed error messages
 
-## 🎖️ Hackathon Submission Details
-
-**Challenge**: Coinbase x402 + CDP Integration
-**Innovation**: Universal AI agent payment enablement
-**Demo Mode**: `NODE_ENV=demo npm start`
-**Repository**: https://github.com/xR0am/tip-md-x402-mcp-server
-
 ### Key Differentiators
 
 1. **Universal Agent Integration**: Any MCP client becomes payment-enabled
@@ -212,9 +205,5 @@ npm start
 
 For questions about this hackathon entry:
 - **Issues**: Open a GitHub issue
-- **Email**: support@tip.md
 - **Demo Problems**: Ensure you're testing through an MCP client, not just the server logs
 
----
-
-**Built for the Coinbase x402 + CDP Hackathon** 🏆
